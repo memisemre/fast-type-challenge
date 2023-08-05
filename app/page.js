@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Words from "./words.json";
 const Home = () => {
-  const [time, setTime] = useState(15);
+  const [time, setTime] = useState(60);
   const [value, setValue] = useState("");
   const [currentWord, setCurrentWord] = useState(Words[0]);
   const [trueWords, setTrueWords] = useState(0);
