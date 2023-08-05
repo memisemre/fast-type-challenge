@@ -50,7 +50,7 @@ const Home = () => {
         {Words.map((word, i) => {
           return (
             <p style={i === 0 ? { color: "red" } : {}} key={i}>
-              {word} ---
+              {word},
             </p>
           );
         })}
